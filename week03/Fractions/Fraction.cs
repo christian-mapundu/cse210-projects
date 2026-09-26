@@ -12,6 +12,14 @@ public class Fraction
         _topNumber = topNumber;
         _bottomNumber = bottomNumber;
     }
-    
 
+    public string GetFractionString()
+    {
+        return _topNumber + "/" + _bottomNumber;
+    }
+
+    public double GetDecimalValue()
+    {
+        return (double)_topNumber / _bottomNumber;
+    }
 }
